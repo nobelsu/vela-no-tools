@@ -14,7 +14,7 @@ async def train(startt):
         counter = 0
         for row in reader:
             counter += 1
-            write_text(counter)
+            write_text("counter.txt", str(counter))
             if counter < startt:
                 continue
             rows.append(row_to_formatted_string(row))
