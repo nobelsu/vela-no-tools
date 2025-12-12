@@ -4,4 +4,8 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "aiosqlite>=0.21.0",
+    "mcp-agent[google]>=0.2.6",
+    "pydantic>=2.12.5",
+]

@@ -30,4 +30,4 @@ async def train(startt):
     print(f"\n\nTotal run time: {t:.2f}s")
 
 if __name__ == "__main__":
-    asyncio.run()
+    asyncio.run(train(0))
