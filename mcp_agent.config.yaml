@@ -11,4 +11,4 @@ logger:
     timestamp_format: "%Y%m%d_%H%M%S"
 
 google:
-  default_model: "gemini-3-pro-preview"
+  default_model: "gemini-2.5-flash"

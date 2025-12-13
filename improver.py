@@ -10,7 +10,7 @@ from mcp_agent.workflows.llm.augmented_llm import RequestParams
 from mcp_agent.human_input.console_handler import console_input_callback
 from mcp_agent.app import MCPApp
 
-app = MCPApp(name="improver-agent", human_input_callback=console_input_callback)
+app = MCPApp(name="improver-agent")
 
 async def runImprover(prompt):
     start = time.time()

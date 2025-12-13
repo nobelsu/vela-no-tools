@@ -16,7 +16,7 @@ from mcp_agent.app import MCPApp
 
 from utils import read_text, write_text
 
-app = MCPApp(name="improver-agent", human_input_callback=console_input_callback)
+app = MCPApp(name="predictor-agent")
 
 class PredictionResponse(BaseModel):
     prediction: bool
